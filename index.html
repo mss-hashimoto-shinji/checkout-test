@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Test</title>
+</head>
+<body>
+
+  <!-- ボタン単体に onclick を設定 -->
+  <button onclick="handleCheckout()">Checkoutへ遷移する</button>
+
+  <script>
+    function handleCheckout() {
+      const checkoutUrl = 'https://checkout.dev.spliot.com//parks/company/amPG6WyuJIIHj8NuzANh?park-entries=entry';
+      window.location.href = checkoutUrl;
+    }
+  </script>
+
+</body>
+</html>
